@@ -1,0 +1,9 @@
+
+<textarea type="text" rows="10"
+          [(ngModel)]="text"
+          (ngModelChange)="changeTextArray()"> </textarea>
+
+<div>
+  <p>{{ textArrayToXML(textArray) }}</p>
+  <p>{{ textArrayToCSV(textArray) }}</p>
+</div>
